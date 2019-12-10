@@ -10,8 +10,8 @@ const handleClick = () => dispatch('clicked')
 </script>
 
 <button
-  class="bg-{color}-700 hover:bg-{color}-500
-    text-white font-bold
+  class="text-white font-bold
+    bg-{color}-700 hover:bg-{color}-500
     px-4 py-2 my-1
     w-full sm:w-auto
     rounded shadow-md"

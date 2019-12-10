@@ -8,6 +8,10 @@ const onAcceptClicked = () => dispatch('accepted')
 const onRejectClicked = () => dispatch('rejected')
 </script>
 
+<div class="w-0
+  bg-green-700 hover:bg-green-500
+  bg-red-700 hover:bg-red-500">
+</div>
 <div class="sm:flex justify-between max-w-md mx-auto">
   <Button
     color="green"

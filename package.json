@@ -6,6 +6,7 @@
     "dev": "rollup -c -w",
     "dev:lambda": "netlify-lambda build src/functions",
     "netlify": "netlify dev",
+    "deploy": "netlify deploy",
     "start": "sirv public"
   },
   "devDependencies": {
