@@ -3,6 +3,7 @@ import { onMount } from 'svelte'
 
 import Header from './components/Header.svelte'
 import Card from './components/Card.svelte'
+import Loading from './components/Loading.svelte'
 import Recipe from './components/Recipe.svelte'
 import Actions from './components/Actions.svelte'
 import { fetchRecipe } from './logic/api'
@@ -38,7 +39,9 @@ const handleReject = () => {
     <Header />
 
     <Card>
-      {#if !isRecipeEmpty}
+      {#if isRecipeEmpty}
+        <Loading />
+      {:else}
         <Recipe {...recipe} />
       {/if}
     </Card>
