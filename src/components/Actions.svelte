@@ -8,7 +8,7 @@ const onAcceptClicked = () => dispatch('accepted')
 const onRejectClicked = () => dispatch('rejected')
 </script>
 
-<div class="flex justify-between max-w-md mx-auto">
+<div class="sm:flex justify-between max-w-md mx-auto">
   <Button
     color="green"
     on:clicked={onAcceptClicked}>

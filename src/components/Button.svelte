@@ -12,7 +12,8 @@ const handleClick = () => dispatch('clicked')
 <button
   class="bg-{color}-700 hover:bg-{color}-500
     text-white font-bold
-    px-4 py-2
+    px-4 py-2 my-1
+    w-full sm:w-auto
     rounded shadow-md"
   on:click|preventDefault={handleClick}>
   <slot></slot>

@@ -33,7 +33,7 @@ const handleReject = () => {
 }
 </script>
 
-<div class="bg-wrapper min-h-screen">
+<div class="bg-wrapper min-h-screen px-3">
   <div class="container mx-auto min-h-screen">
     <Header />
 
