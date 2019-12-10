@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
+    "build:lambda": "netlify-lambda build src/functions",
     "dev": "rollup -c -w",
-    "dev:lambda": "netlify-lambda build src/functions",
     "netlify": "netlify dev",
     "deploy": "netlify deploy",
     "start": "sirv public"
