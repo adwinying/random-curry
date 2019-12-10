@@ -21,6 +21,7 @@ const compileData = (div) => ({
   title: div.find('.recipe-title').text(),
   author: div.find('.recipe_author_name a').text(),
   description: div.find('.recipe_description').text(),
+  href: div.find('.recipe-title').attr('href'),
   img: div.find('.recipe-image img').attr('src'),
   ingredients: div.find('.material.ingredients').text()
     .replace('材料：', '').split('、'),
