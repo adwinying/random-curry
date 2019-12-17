@@ -29,7 +29,7 @@ const compileData = (div) => ({
 
 const response = (statusCode, body) => ({
   statusCode,
-  headers: { 'Content-Type': 'application/json' },
+  headers: { 'Content-Type': 'application/json;charset=UTF-8' },
   body: JSON.stringify(body),
 })
 
